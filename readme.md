@@ -84,5 +84,32 @@ newgrp docker
 ```
 
 ---
+🐳 3. Run Docker Compose
 
-Let me know when you're ready to share the rest of the Docker Compose commands, and I’ll generate the full `README.md` for your app!
+Make sure you have a docker-compose.yml file in your project root.
+
+Start your services:
+```bash
+docker compose up -d
+```
+Check logs:
+
+
+```bash
+docker compose logs -f
+```
+
+Stop all containers:
+
+```bash
+docker compose down
+```
+
+
+✅ Common Commands
+Action	Command
+Start services	docker compose up -d
+Stop services	docker compose down
+View logs	docker compose logs -f
+Restart services	docker compose restart
+Rebuild containers	docker compose up --build

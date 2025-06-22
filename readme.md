@@ -84,7 +84,14 @@ newgrp docker
 ```
 
 ---
-🐳 3. Run Docker Compose
+
+### Move to Repo
+
+```bash
+cd redis-rabbitmq
+```
+
+### Run Docker Compose
 
 Make sure you have a docker-compose.yml file in your project root.
 

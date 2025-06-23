@@ -85,6 +85,12 @@ newgrp docker
 
 ---
 
+### Git Clone Repo
+
+```bash
+git clone https://github.com/watcher-devx/redis-rabbitmq.git
+```
+
 ### Move to Repo
 
 ```bash
